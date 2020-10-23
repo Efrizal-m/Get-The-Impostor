@@ -76,11 +76,10 @@ function hit(){
     kill.innerText = point;
 }
 
-// for (let i = 0; i < imp.length; i++) {
+for (let i = 0; i < imp.length; i++) {
 // if sesuai baru hit, cek event
-    imp[0].addEventListener('click',function(MouseEvent) {
-        console.log(MouseEvent)
-        // hit();        
+    imp[i].addEventListener('click',function() {
+        hit();        
     })
-// }
+}
 
